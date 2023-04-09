@@ -1,0 +1,43 @@
+footer{
+    height: 100px;
+    background: var(--head-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      
+    .left{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  
+      nav{
+        a{
+          text-decoration: none;
+          color: var(--button-color);
+          font-size: 0.7em;
+        }
+      
+        span{
+          padding-left: 10px;
+          padding-right: 8px;
+          font-size: 0.6em;
+        }
+      }
+  
+      p{
+        font-size: 0.5em;
+        color: var(--text-color);
+      }
+    }
+  
+    .right{
+      width: 80px;
+      display: flex;
+      justify-content: space-between;
+      gap: 2;
+  
+      a{
+        color: var(--button-color);
+      }
+    }
+  }

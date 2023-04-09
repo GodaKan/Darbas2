@@ -1,0 +1,30 @@
+.intro{
+    background: var(--head-color);
+    height: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  
+      .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 210px;
+        gap: 10px;
+      }
+  
+      i {
+        color: var(--button-color);
+        padding-bottom: 20px;
+      }
+  
+      p{
+        font-size: 0.8em;
+        color: var(--text-color);
+        line-height: 1.5;
+        // letter-spacing: 1px;
+      }
+  
+  }

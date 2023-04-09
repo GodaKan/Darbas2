@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gulp template</title>
+  <title>Tarpinis</title>
   <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
   <link rel="stylesheet" href="app/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,28 +17,28 @@
 </header>
 
 <section class="start">
-  <div class="signup">
-      <h1>Build a landing page for your business or project and generate more leads!</h1>
-      <form>
-          <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-          <button>Sign up!</button>
-      </form>
-  </div>
+    <h1>Build a landing page for your business or project and generate more leads!</h1>
+    <form>
+        <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+        <button>Sign up!</button>
+    </form>
 </section>
 
 <section class="intro">
   <div class="icons">
-      <div><i class="fa-sharp fa-light fa-display"></i></div>
+      <div><i class="fa-solid fa-display fa-2xl"></i></div>
       <h3>Fully responsive</h3>
       <p>This theme will look great on any device, no matter the size!</p>
   </div>
+
   <div class="icons">
-      <!-- <div class="icon-2"></div> -->
+      <div><i class="fa-solid fa-layer-group fa-2xl"></i></div>
       <h3>Bootstrap 4 Ready</h3>
       <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
   </div>
+  
   <div class="icons">
-      <!-- <div class="icon-3"></div> -->
+      <div><i class="fa-regular fa-circle-check fa-2xl"></i></div>
       <h3>Easy to Use</h3>
       <p>Ready to use with your own content, or customize the source files!</p>
   </div>
@@ -46,70 +46,78 @@
 </section>
 
 <section class="content">
-  <div class="first">
+  <div class="box first">
       <article>
           <h2>Fully Responsive Design</h2>
           <p>When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
       </article>
-      <div class="img"></div>
+      <img src="app/images/bg-showcase-1.jpg" alt="iphone">
   </div>
 
-  <div class="second">
+  <div class="box second">
       <article>
           <h2>Updated For Bootstrap 4</h2>
           <p>Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!<p>
       </article>
-      <div class="img"></div>
+      <img src="app/images/bg-showcase-2.jpg" alt="code">
   </div>
 
-  <div class="third">
+  <div class="box third">
       <article>
           <h2>Easy to Use & Customize</h2>
           <p>Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go! </p>            
       </article>
-      <div class="img"></div>
+      <img src="app/images/bg-showcase-3.jpg" alt="kid">
   </div>
 </section>
 
 <section class="feedback">
   <h2>What people are saying...</h2>
-  <div class="marg">
-      <img src="" alt="">
+  <div class="container">
+    <div class="marg">
+      <img src="app/images/testimonials-1.jpg" alt="girl">
       <h5>Margaret E.</h5>
       <p>"This is fantastic! Thanks so much guys!"</p>
-  </div>
+    </div>
 
   <div class="fred">
-      <img src="" alt="">
+      <img src="app/images/testimonials-2.jpg" alt="Fred">
       <h5>Fred S.</h5>
       <p>"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
   </div>
 
   <div class="sarah">
-      <img src="" alt="">
+      <img src="app/images/testimonials-3.jpg" alt="Sarah">
       <h5>Sarah W.</h5>
       <p>"Thanks so much for making these free resources available to us!"</p>
   </div>
+  </div>
+  
 </section>
 
 <section class="end">
   <h3>Ready to get started? Sign up now!</h3>
   <form>
-      <input type="email">
+      <input type="email" id="email" name="email" placeholder="Enter your email..." required>
       <button>Sign up!</button>
   </form>
 </section>
 
 <footer>
   <div class="left">
-      About • Contact • Terms of Use • Privacy Policy
-      © Your Website 2018.AllRightsReserved.
+    <nav>
+      <a href="#">About</a><span>·</span>
+      <a href="#">Contact</a><span>·</span> 
+      <a href="#">Terms of Use</a><span>·</span> 
+      <a href="#">Privacy Policy</a>
+    </nav>
+    <p>© Your Website 2018.AllRightsReserved.</p>
   </div>
 
   <div class="right">
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
   </div>
 </footer>
 

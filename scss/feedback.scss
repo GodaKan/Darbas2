@@ -1,0 +1,42 @@
+.feedback {
+    height: 400px;
+    background: var(--head-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  
+    h2{
+        margin-bottom: 30px;
+    }
+  
+    .container{
+      display: flex;
+      gap: 50px;
+      text-align: center;
+      justify-content: center;
+      align-items: start;
+    
+    
+      div{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+  
+        img{
+          width: 120px;
+          border-radius: 100%;
+          box-shadow: 0px 2px 3px rgb(128, 130, 131);
+        }
+        p{
+          font-size: 0.6em;
+          color: var(--text-color);
+          line-height: 1.5;
+        }
+      }
+    }
+  
+    }

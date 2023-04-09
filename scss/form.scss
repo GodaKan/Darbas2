@@ -1,0 +1,28 @@
+form{
+    z-index: 1;
+    
+    input{
+      padding: 8px;
+      width: 300px;
+      border: none;
+      border-radius: 3px;
+      margin-right: 5px;
+    }
+    
+    button{
+      padding: 8px;
+      border: none;
+      width: 100px;
+      border-radius: 3px;
+      background: var(--button-color);
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+  
+      &:hover{
+        background: white;
+        color: var(--button-color);
+      }
+    }
+  }
+  
